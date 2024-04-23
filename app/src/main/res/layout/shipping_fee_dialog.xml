@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Shipping Fee Details"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/shippingFeeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Shipping Fee"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/numOfBoxesInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of Boxes"
+        android:inputType="number"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>

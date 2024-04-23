@@ -1,0 +1,18 @@
+<resources>
+    <string name="select_method">Select Method</string>
+    <string-array name="method_array">
+        <item>BAGUIO DA</item>
+        <item>LTB DA</item>
+        <item>VICTORY</item>
+        <item>PARTAS</item>
+        <item>VAN</item>
+        <item>PICKUP</item>
+        <item>ERRAND</item>
+        <item>FOR DELIVERY</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="status_options">
+        <item>Unidentified</item>
+        <item>Legit</item>
+    </string-array>
+</resources>

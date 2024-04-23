@@ -1,0 +1,15 @@
+<!-- sort_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_sort_all"
+        android:title="All" />
+    <item
+        android:id="@+id/menu_sort_balance"
+        android:title="Balance" />
+    <item
+        android:id="@+id/menu_sort_unidentified"
+        android:title="Unidentified" />
+    <item
+        android:id="@+id/menu_sort_newBuyer"
+        android:title="New Buyer" />
+</menu>
